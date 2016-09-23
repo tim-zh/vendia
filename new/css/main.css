@@ -1,29 +1,29 @@
 html, body {
-	height: 100%;
-	margin: 0;
+  height: 100%;
+  margin: 0;
 }
 
 body {
-	overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 body::selection {
-	background: #edcd1f;
-	color: #fff;
+  background: #edcd1f;
+  color: #fff;
 }
 
 header::selection,
 section.success::selection {
-	background: #2c3e50;
-	color: #fff;
+  background: #2c3e50;
+  color: #fff;
 }
 
 p {
-	font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 /*ul {
-	list-style-type: lower-greek;
+  list-style-type: lower-greek;
 }*/
 
 a,
@@ -31,247 +31,247 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-	outline: 0;
-	color: #edcd1f;
+  outline: 0;
+  color: #edcd1f;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 h1 {
-	font-size: 4em;
-	font-weight: 400;
+  font-size: 4em;
+  font-weight: 400;
 }
 
 h2 {
-	margin: 0;
-	font-size: 2.5em;
+  margin: 0;
+  font-size: 2.5em;
 }
 
 header {
-	text-align: center;
-	color: #fff;
-	background: url("../img/123123.jpg") center center no-repeat;
-	background-size: cover;
-	min-height: 99%;
-	height: 99%;
+  text-align: center;
+  color: #fff;
+  background: url("../img/123123.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 99%;
+  height: 99%;
 }
 
 header .container {
-	padding-top: 160px;
-	padding-bottom: 50px;
-	height: 100%;
-	background: rgba(0, 0, 0, 0.6);
-	width: 70%;
+  padding-top: 160px;
+  padding-bottom: 50px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  width: 70%;
 }
 
 header img {
-	display: block;
-	margin: 0 auto 60px;
+  display: block;
+  margin: 0 auto 60px;
 }
 
 header .intro-text .name {
-	display: block;
-	text-transform: uppercase;
-	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 2em;
-	font-weight: 700;
+  display: block;
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: 700;
 }
 
 header .intro-text .skills {
-	font-size: 1.25em;
-	font-weight: 300;
+  font-size: 1.25em;
+  font-weight: 300;
 }
 
 header h3 {
-	font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 hr {
-	border-top: 6px solid #edcd1f;
-	width: 20%;
+  border-top: 6px solid #edcd1f;
+  width: 20%;
 }
 
 .navbar {
-	text-transform: uppercase;
-	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .navbar a:focus {
-	outline: 0;
+  outline: 0;
 }
 
 .navbar-header {
-	padding: 20px 100px;
-	background: #edcd1f;
-	font-weight: 700;
+  padding: 20px 100px;
+  background: #edcd1f;
+  font-weight: 700;
 }
 
 .navbar-right {
-	padding: 35px 40px 5px;
+  padding: 35px 40px 5px;
 }
 
 .navbar .navbar-nav {
-	letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .navbar .navbar-nav li a:focus {
-	outline: 0;
+  outline: 0;
 }
 
 .nav > li {
-	padding: 0 10px;
+  padding: 0 10px;
 }
 
 .navbar {
-	background-color: #1e2d3b;
+  background-color: #1e2d3b;
 }
 
 .navbar .navbar-brand {
-	color: #1e2d3b;
+  color: #1e2d3b;
 }
 
 .navbar-brand {
-	font-size: 23px;
+  font-size: 23px;
 }
 
 .navbar,
 .navbar-inverse {
-	border: 0;
+  border: 0;
 }
 
 section {
-	padding: 50px 0;
+  padding: 50px 0;
 }
 
 .gray {
-	background: #f7f5f5;
-	width: 50%;
-	padding: 40px;
+  background: #f7f5f5;
+  width: 50%;
+  padding: 40px;
 }
 
 #about {
-	background: url("../img/234234.jpg") center center no-repeat;
-	background-size: cover;
-	padding: 0;
+  background: url("../img/234234.jpg") center center no-repeat;
+  background-size: cover;
+  padding: 0;
 }
 
 .success {
-	color: #3d5975;
-	background: #edcd1f;
-	padding: 40px;
+  color: #3d5975;
+  background: #edcd1f;
+  padding: 40px;
 }
 
 .success div {
-	font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 .col-lg-4 {
-	padding: 0 10px;
+  padding: 0 10px;
 }
 
 .col-lg-4 > img {
-	width: 100%;
+  width: 100%;
 }
 
 .col-lg-4 > div {
-	background: #f7f5f5;
-	padding: 25px;
+  background: #f7f5f5;
+  padding: 25px;
 }
 
 .col-lg-4 h4 {
-	padding: 10px 0;
-	color: #3d5975;
+  padding: 10px 0;
+  color: #3d5975;
 }
 
 footer {
-	color: #fff;
+  color: #fff;
 }
 
 footer p {
-	font-size: 1em;
-	margin-bottom: 30px;
+  font-size: 1em;
+  margin-bottom: 30px;
 }
 
 footer h3 {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 footer .footer-above {
-	padding-top: 50px;
-	background-color: #2c3e50;
+  padding-top: 50px;
+  background-color: #2c3e50;
 }
 
 footer .footer-col {
-	margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 footer .footer-below {
-	padding: 25px 0;
-	background-color: #1e2d3b;
+  padding: 25px 0;
+  background-color: #1e2d3b;
 }
 
 .btn:focus,
 .btn:active,
 .btn.active {
-	outline: 0;
+  outline: 0;
 }
 
 .scroll-top {
-	z-index: 1049;
-	position: fixed;
-	right: 2%;
-	bottom: 2%;
-	width: 50px;
-	height: 50px;
+  z-index: 1049;
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+  width: 50px;
+  height: 50px;
 }
 
 .scroll-top .btn {
-	width: 50px;
-	height: 50px;
-	border-radius: 100%;
-	font-size: 20px;
-	line-height: 28px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .scroll-top .btn:focus {
-	outline: 0;
+  outline: 0;
 }
 
 #portfolio a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .map {
-	height: 300px;
-	margin-bottom: 20px;
-	color: #000;
+  height: 400px;
+  margin-bottom: 20px;
+  color: #000;
 }
 
 .project-box {
-	background: #f5f5f5;
-	color: #2c3e50;
-	border-bottom: #ccc solid 1px;
-	padding: 40px;
-	text-decoration: none;
-	transition: all .3s;
+  background: #f5f5f5;
+  color: #2c3e50;
+  border-bottom: #ccc solid 1px;
+  padding: 40px;
+  text-decoration: none;
+  transition: all .3s;
 }
 
 .project-box:hover {
-	background: #2c3e50;
-	color: #fff;
-	border-bottom-color: #777;
+  background: #2c3e50;
+  color: #fff;
+  border-bottom-color: #777;
 }
 
 .project-box img {
-	float: right;
-	margin-left: 60px;
+  float: right;
+  margin-left: 60px;
 }
 
 hr.spacer {
-	color: transparent;
-	margin: auto;
-	height: 60px;
-	border: none;
+  color: transparent;
+  margin: auto;
+  height: 60px;
+  border: none;
 }
