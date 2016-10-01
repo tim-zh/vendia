@@ -17,10 +17,6 @@ p, li {
   font-size: 1.2em;
 }
 
-ul {
-  list-style-type: lower-greek;
-}
-
 a,
 a:hover,
 a:focus,
@@ -193,7 +189,7 @@ footer .footer-below {
   outline: 0;
 }
 
-#portfolio a {
+#portfolio .container > a {
   text-decoration: none;
 }
 
@@ -206,21 +202,28 @@ footer .footer-below {
 .project-box {
   background: #f5f5f5;
   color: #2c3e50;
-  border-bottom: #ccc solid 1px;
+  border-top: #ccc solid 1px;
   padding: 40px;
-  text-decoration: none;
   transition: all .3s;
+  cursor: pointer;
 }
 
 .project-box:hover {
   background: #2c3e50;
   color: #fff;
-  border-bottom-color: #777;
+  border-top-color: #777;
 }
 
 .project-box img {
   float: right;
   margin-left: 60px;
+}
+
+.project-details {
+  display: none;
+  background: #2c3e50;
+  color: #fff;
+  padding: 40px;
 }
 
 hr.spacer {
