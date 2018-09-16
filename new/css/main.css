@@ -103,13 +103,17 @@ hr {
 }
 
 .navbar-header {
-  padding: 20px 100px;
+  padding: 5px 100px;
   background: #edcd1f;
   font-weight: 700;
 }
 
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #fff;
+}
+
 .navbar-right {
-  padding: 35px 40px 5px;
+  padding: 5px 40px;
 }
 
 .navbar .navbar-nav {
