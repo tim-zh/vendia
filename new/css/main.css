@@ -93,6 +93,16 @@ hr {
   width: 20%;
 }
 
+table {
+  font-size: 1.2em;
+  margin-top: 2em;
+}
+
+td {
+  border: 1px solid #000 !important;
+  padding: 4px;
+}
+
 .navbar {
   text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
