@@ -18,7 +18,7 @@ section.success::selection {
   color: #fff;
 }
 
-p {
+p, section li {
   font-size: 1.2em;
 }
 

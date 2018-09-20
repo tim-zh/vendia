@@ -18,7 +18,7 @@ section.success::selection {
   color: #fff;
 }
 
-p {
+p, section li {
   font-size: 1.2em;
 }
 
@@ -52,7 +52,7 @@ h2 {
 header {
   text-align: center;
   color: #fff;
-  background: url("../img/123123.jpg") center center no-repeat;
+  background: url("../img/123123.png") center center no-repeat;
   background-size: cover;
   min-height: 99%;
   height: 99%;
@@ -166,7 +166,7 @@ section {
 }
 
 #about {
-  background: url("../img/234234.jpg") center center no-repeat;
+  background: url("../img/234234 3.jpg") center center no-repeat;
   background-size: cover;
   padding: 0;
 }

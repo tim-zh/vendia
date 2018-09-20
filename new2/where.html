@@ -69,7 +69,7 @@
 		</p>
 	</div>
 	<div class="textBox" id="textBox1">
-		<?php
+		<!--<?php
 		if($_POST['phone']&&preg_match("/^[\d+-\s]{7,}$/",$_POST['phone'])&&$_POST['reqtext'])
 		{
 			$dbe=mysql_connect("localhost","autoparking1","Eeyees1a");
@@ -85,7 +85,7 @@
 			if(mysql_query("INSERT INTO `requests` (`id`,`phone`,`mail`,`text`,`date`) VALUES (NULL,'".$phone."','".$mail."','".$text."',NOW())",$dbe))
 				echo 'предложение отправлено<br /><br />';
 		}
-		?>
+		?>-->
 		<form action="where.php" method="post">
 			<table>
 				<tr>
