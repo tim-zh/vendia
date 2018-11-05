@@ -17,7 +17,6 @@ function load()
 		isOver[i]=false;
 		w[i]=0;
 	}
-	setInterval('overOut()',20);
 
 	moveText(0);
 	if(document.getElementById('curSMI'))
@@ -84,22 +83,3 @@ function moveText(curText)
 
 isOver=new Array();
 w=new Array();
-
-function overOut()
-{
-	for(i=0;i<5;++i)
-	{
-		if(isOver[i])
-		{
-			if(w[i]<40)
-				w[i]+=5;
-		}
-		else
-		{
-			if(w[i]>0)
-				w[i]-=5;
-		}
-		if(document.getElementById('mi'+i))
-			document.getElementById('mi'+i).style.height=w[i];
-	}
-}

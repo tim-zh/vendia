@@ -36,8 +36,7 @@
     <div id="name">АвтоПаркинг1</div>
     <div id="miniContacts">
       тел. 2-111-007<br />
-      velcom 314-72-23<br />
-      мтс 708-64-92<br />
+      velcom 647-90-74<br />
     </div>
     <div id="menu">
       <div class="transBack"></div><div class="miBg" id="mi0"></div><div class="miBg" id="mi2"></div><div class="miBg" id="mi3"></div><div class="miBg" id="mi4"></div>
@@ -68,46 +67,6 @@
       </ul>
       </p>
     </div>
-    <div class="textBox" id="textBox1">
-      <!--<?php
-      if($_POST['phone']&&preg_match("/^[\d+-\s]{7,}$/",$_POST['phone'])&&$_POST['reqtext'])
-      {
-        $dbe=mysql_connect("localhost","autoparking1","Eeyees1a");
-        mysql_select_db("autoparking1",$dbe);
-        $phone=mysql_real_escape_string($_POST['phone']);
-        $mail=mysql_real_escape_string($_POST['mail']);
-        $text=$_POST['reqtext'];
-        $text=str_replace("<","&lt;",$text);
-        $text=str_replace(">","&gt;",$text);
-        $text=wordwrap($text,45,'<br />',true);
-        $text=nl2br($text);
-        $text=mysql_real_escape_string($text);
-        if(mysql_query("INSERT INTO `requests` (`id`,`phone`,`mail`,`text`,`date`) VALUES (NULL,'".$phone."','".$mail."','".$text."',NOW())",$dbe))
-          echo 'предложение отправлено<br /><br />';
-      }
-      ?>-->
-      <form action="where.php" method="post">
-        <table>
-          <tr>
-            <td align="right">телефон <span style="color:#f00; font-size:11px; vertical-align:super;">*</span></td>
-            <td><input type="text" name="phone"></input></td>
-          </tr>
-          <tr>
-            <td align="right">e-mail</td>
-            <td><input type="text" name="mail"></input></td>
-          </tr>
-          <tr>
-            <td align="right" style="vertical-align:top;">текст<span style="color:#f00; font-size:11px; vertical-align:super;">*</span></td>
-            <td><textarea name="reqtext" style="width:300px; height:200px;"></textarea></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td><input type="submit" value="Отправить"></input></td>
-          </tr>
-        </table>
-        <font style="color:#f00; font-size:11px;">* - поля, обязательные для заполнения</font>
-      </form>
-    </div>
     <div class="textBox" id="textBox2">
       <a href="javascript:moveText(0); void(0);" style="float:left;">назад</a>
       <strong id="siteName"></strong><br /><br />
@@ -136,7 +95,6 @@
         <div class="upLeftSh"></div><div class="upSh"></div><div class="upRightSh"></div><div class="rightSh"></div><div class="leftSh"></div>
       </div>
       <div class="subMenuI" id="smi0" onClick="moveText(0);">Размещение автопаркингов</div>
-      <div class="subMenuI" id="smi1" onClick="moveText(1);">Оставить предложение</div>
     </div>
   </div>
 </div>
